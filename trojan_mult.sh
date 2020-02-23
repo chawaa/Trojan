@@ -9,7 +9,6 @@ green(){
 red(){
     echo -e "\033[31m\033[01m$1\033[0m"
 }
-#copy from 秋水逸冰 ss scripts
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
     systemPackage="yum"
